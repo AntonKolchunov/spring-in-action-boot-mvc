@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 //1 Case @Controller + @ResponseBody
+//Обычные методы возвращают Model(представление)(Model-View-Controller),
+// а методы аннотированные @ResponseBody возвращают объекты,
+// которые конвертируются в медиа-файлы с помощью HttpMessageConvert (JSON, XML и т.д.)
 //@Controller
 //public class HelloController {
 //
